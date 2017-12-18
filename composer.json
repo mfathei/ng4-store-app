@@ -1,0 +1,12 @@
+{
+    "name": "root/ng4-store-app",
+    "authors": [
+        {
+            "name": "Mohamed Mahdy",
+            "email": "mohamed.mahdy@sphinxinfotech.net"
+        }
+    ],
+    "require": {
+        "slim/slim": "^3.9"
+    }
+}
