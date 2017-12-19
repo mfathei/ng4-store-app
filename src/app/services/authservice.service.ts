@@ -12,7 +12,7 @@ export class AuthserviceService {
   constructor(private http: Http) { }
 
   userInfo(): Observable<string[]> {
-    return this.http.get('/../api/version').map((resp: Response) =>  resp.json() as string[]
+    return this.http.get('/api/version').map((resp: Response) =>  resp.json() as string[]
   );
       // .map(res => res.json())
       //s.catch((error: any) => Observable.throw(error.json().error || 'Server error'));
