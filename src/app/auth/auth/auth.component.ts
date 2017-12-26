@@ -26,12 +26,13 @@ export class AuthComponent implements OnInit {
   }
 
   loginUser() {
-    this.authService.loginUser()
-      .subscribe(
-      data => this.postedData = JSON.stringify(data),
-      error => alert(error),
-      () => console.log('finished')
-      );
+    console.log(`Hello HMR World`);
+    // this.authService.loginUser()
+    //   .subscribe(
+    //   data => this.postedData = JSON.stringify(data),
+    //   error => alert(error),
+    //   () => console.log('finished')
+    //   );
   }
 }
 
