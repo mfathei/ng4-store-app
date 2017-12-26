@@ -6,6 +6,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## OR
+
+Run `php -S 127.0.0.1:9999 ` for a php dev server and run `npm run build` this will build your app to app folder and watch files for changes and rebuild automatically.
+
+Now open your browser to http://127.0.0.1:9999/app and for any changes in app files just refresh your page and you will get them.
+
+## Note
+
+`npm run build` is an alias to `ng build --sourcemaps true --watch true --base-href /app/` so you can run any one of them as you like.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
